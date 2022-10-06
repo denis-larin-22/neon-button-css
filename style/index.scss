@@ -23,9 +23,11 @@ body {
     transition: .2s;
     border-radius: 2px;
     &:hover {
-        box-shadow: 0 0 10px #FF0000, 0 0 40px #FF0000;
-        transition-delay: 1.5s;
-        transition: 1.5s linear;
+        background-color: #FF0000;
+        box-shadow: 0 0 10px #FF0000, 0 0 40px #FF0000, 0 0 80px #FF0000;
+        transition: 1s;
+        transition-delay: 0.8s;
+        color: #000000;
     }
     &:hover .btn__line_top {
         left: 100%;
